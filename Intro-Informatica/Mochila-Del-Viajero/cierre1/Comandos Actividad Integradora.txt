@@ -1,0 +1,218 @@
+usuario@DESKTOP-0K7ETPS MINGW64 ~
+$ cd desktop
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop
+$ mkdir DH
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop
+$ cd DH/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ mkdir Peliculas
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ cd Peliculas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd Infantiles/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Infantiles
+$ touch Intenzamente.txt EljuegoDelmiedo.xls RapidoYfurioso.pdf Titanic.jpg
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Infantiles
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd Accion/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Accion
+$ touch SmoothCriminal.txt DiarioDeUnaPasion.js ElHexorcista.xls Cars.jpg
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Accion
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd Terror/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Terror
+$ touch LaDamaYElBagavundo.png YoAntesDeTi.xls QuePasoAyer.pdf WeWillRockYou.js
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Terror
+$
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Terror
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd Comedia/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ touch Madagaskar.js OrgulloYPrejuicio.txt It.xls MisionImposible.png
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Comedia
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ touch Pocahontas.jpg Annabelle.js LosVengadores.js LaMascara.js
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ ls -R
+.:
+Accion  Comedia  Infantiles  Romanticas  Terror
+
+./Accion:
+Cars.jpg  DiarioDeUnaPasion.js  ElHexorcista.xls  SmoothCriminal.txt
+
+./Comedia:
+It.xls  Madagaskar.js  MisionImposible.png  OrgulloYPrejuicio.txt
+
+./Infantiles:
+EljuegoDelmiedo.xls  Intenzamente.txt  RapidoYfurioso.pdf  Titanic.jpg
+
+./Romanticas:
+Annabelle.js  LaMascara.js  LosVengadores.js  Pocahontas.jpg
+
+./Terror:
+LaDamaYElBagavundo.png  QuePasoAyer.pdf  WeWillRockYou.js  YoAntesDeTi.xls
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ mkdir Peliculas/Romanticas/Prueba
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ cd Peliculas/Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ mkdir ../Accion/Prueba2
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas/Romanticas
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Accion/Cars.jpg Infantiles/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Accion/DiarioDeUnaPasion.js Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Accion/ElHexorcista.xls Terror/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Comedia/It.xls Terror/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Comedia/MisionImposible.png Accion/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Comedia/OrgulloYPrejuicio.txt Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Infantiles/EljuegoDelmiedo.xls Terror/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Infantiles/RapidoYfurioso.pdf Accion/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Infantiles/Titanic.jpg Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Romanticas/Annabelle.js Terror/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Romanticas/LaMascara.js Comedia/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Romanticas/LosVengadores.js Accion/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Romanticas/Pocahontas.jpg Infantiles/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Terror/LaDamaYElBagavundo.png Infantiles/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Terror/QuePasoAyer.pdf Comedia/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Terror/YoAntesDeTi.xls Romanticas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ mv Peliculas/Infantiles/Intenzamente.txt  Peliculas/Infantiles/Intensamente.txt
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ mv Peliculas/Infantiles/LaDamaYElBagavundo.png  Peliculas/Infantiles/LaDamaYElVagabundo.png
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ mv Peliculas/Terror/ElHexorcista.xls Peliculas/Terror/ElExorcista.xls
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ rm Peliculas/Terror/WeWillRockYou.js 
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ rm Peliculas/Accion/SmoothCriminal.txt 
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ touch Peliculas/Accion/Prueba2/NoBorrar.js
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ cd Peliculas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Accion/Prueba2/NoBorrar.js Romanticas/Prueba/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ cd ..
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ touch Camadax.txt
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH
+$ cd Peliculas/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ mv Terror/It.xls Infantiles/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ rm ../Camadax.txt 
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ rm -r Romanticas/Prueba/
+
+usuario@DESKTOP-0K7ETPS MINGW64 ~/desktop/DH/Peliculas
+$ ls -R
+.:
+Accion  Comedia  Infantiles  Romanticas  Terror
+
+./Accion:
+LosVengadores.js  MisionImposible.png  Prueba2  RapidoYfurioso.pdf
+
+./Accion/Prueba2:
+
+./Comedia:
+LaMascara.js  Madagaskar.js  QuePasoAyer.pdf
+
+./Infantiles:
+Cars.jpg  Intensamente.txt  It.xls  LaDamaYElVagabundo.png  Pocahontas.jpg
+
+./Romanticas:
+DiarioDeUnaPasion.js  OrgulloYPrejuicio.txt  Titanic.jpg  YoAntesDeTi.xls
+
+./Terror:
+Annabelle.js  ElExorcista.xls  EljuegoDelmiedo.xls

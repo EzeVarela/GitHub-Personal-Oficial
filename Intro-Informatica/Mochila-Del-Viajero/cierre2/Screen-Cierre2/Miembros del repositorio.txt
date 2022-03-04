@@ -1,0 +1,7 @@
+Este repositorio lo realizamos: * Maria De Los Angeles
+                                * Conrado Els
+                                * Ezequiel Varela
+
+Realizamos la creacion de los archivos solicitados en la actividad, ademas de la practica de la resolucion de conflictos
+entre archivos subidos a GitHub.
+Ademas de la creacion "Ramas" diferentes a la "Main" (Llamadas "eze.varela" y "mariade")

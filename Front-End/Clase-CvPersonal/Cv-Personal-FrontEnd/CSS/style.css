@@ -1,0 +1,61 @@
+.fondo img{
+    background: cover;
+    width: 100%;
+    height: 58vh;
+    filter: brightness(65%);
+}
+.nombre h1{
+    position: relative;
+    text-align: center;
+    top: -132px;
+    right: -236px;
+    color: white;   
+}
+.nombre p{
+    position: relative;
+    text-align: center;
+    top: -149px;
+    right: -110px;
+    color: white;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.izquierda{
+    height: 100vh;
+    width: 50%;
+}
+.derecha{
+    background-color: grey;
+    width: 65%;
+    height: 140vh;
+    filter: brightness(180%);
+    
+}
+#pantalla-dividida{
+    display: flex;
+    margin-left: 15;
+}
+.titulos{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.perfil{
+    text-align: left;
+    width: 85%;
+    
+}
+#espacioBlanco{
+
+    height: 41vh;
+}
+h2{
+    margin-left: 25px;
+}
+main p{
+    margin-left: 20px;
+}
+b{
+    text-decoration: underline;
+}
